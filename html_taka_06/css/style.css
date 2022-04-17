@@ -1,0 +1,155 @@
+/* ここから下に記載していく */
+@charset "utf-8";
+
+header{
+    height: 150px;
+    }     
+
+.navi5moji{
+    display: flex;
+    text-align: center;
+    color:greenyellow;
+    margin-left:900px;
+    }
+
+h1{
+    font-size: 40px;
+    }
+h2{
+    font-size: 28px;
+    }
+
+.sekaishokunin{
+    height: 120px;
+    margin-top: 50px;
+    padding: 15x 100px;
+    /* koko wakaran */
+    text-align: center;
+    color: yellow;
+    background-color: rgb(220, 245, 243);
+    }
+
+h3{
+    font-size: 24px;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 30px;    
+}
+
+h4{
+    font-size: 18px;
+    color:blue;
+    text-align: center;
+    margin-bottom: 60px;   
+    }
+
+p,li{
+    font-size: 16px;
+    color: #222;
+}
+
+.sbrsapo{
+    text-align: center;
+    width: 1300px;
+    margin-bottom: 80px;
+}
+
+.shasin4tu{
+    display: flex;
+}
+/* kokoga wakaran */
+.shasin01{
+    flex-grow: 1;
+}
+.shasin02{
+    flex-grow: 2;
+}
+.shasin03{
+    flex-grow: 3;
+}
+.shasin04{
+    flex-grow: 4;
+}
+
+/* kokoga dekinai 2kake3ni */
+.crswrapall{
+    display:flex;
+    }
+.crswrapall{
+    flex-wrap: wrap;
+    }
+.crs02honkaku{
+    margin-top: 120px;
+    margin-bottom: 120px;
+    width: 480px;
+    padding-left: 50px;
+    }
+.crs03hituyo{
+    margin-top: 120px;
+    margin-bottom: 120px;
+    width: 480px;
+    padding-right: 50px;
+    }
+.crs06sotugyo{
+    margin-top: 120px;
+    margin-bottom: 120px;
+    width: 480px;
+    padding-left: 50px;
+    }
+
+.ns3maiwrap{
+    display: flex;
+    }
+.ns01{
+        margin:15px;
+        width: 300px;
+    }
+.ns02{
+    margin:15px;
+    width: 300px;
+    }
+.ns03{
+    margin:15px;
+    width: 300px;
+    }
+
+.more{
+    background-color: yellow;
+    color:blue;
+    font-size: 18px;
+    height: 60px;
+    width: 300px;
+    margin: center  ;
+    text-align: center;
+    }
+
+.akusesu{
+    text-align: center;
+}
+    
+.contact{
+    text-align: center;
+}
+
+input{  
+    height: 30px;
+    }
+
+select{
+        height: 30px;
+        color: gray;
+        background-color: pink;
+    }
+
+button{
+    height: 50px;
+    padding:5px 20px;
+    background-color: yellow;
+    border-color:black;
+    border-style: double;
+    }
+
+    .footer{
+    background-color: gray; 
+    height: auto;  
+    }
